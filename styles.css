@@ -1,4 +1,4 @@
-*{
+html,body,section{
 	margin: 0px;
 	padding: 0px;
 }
@@ -9,6 +9,10 @@
 	box-sizing: border-box;
 }
 
+#main_section h2{
+	font-family: roboto;
+}
+
 #main_section #left{
 	box-sizing: border-box;
 	width:35%;
@@ -17,12 +21,32 @@
 	background-color:#fff;
 	
 }
+#left .name img{
+	width:200px;
+	height:200px;
+	border-radius: 100%;
+	margin: 0px auto;
+	display: block;
+}
+
+
+
+
+
+
+
+/* Design of the right section*/
+
 #main_section #right{
 	box-sizing: border-box;
 	width:58%;
 	
 	float: right;
 	background-color:#aaf;
+}
+
+#main_section #right dd {
+
 }
 
 
@@ -47,4 +71,21 @@ text-indent: 10%;
 }
 #main_section #right div h2{
 text-indent: 10%;
+}
+
+
+#main_section #right .ref{
+width: 45%;
+float: left;
+}
+
+
+#main_section #right .soft{
+width: 45%;
+float:right;	
+}
+.ref_soft{
+	padding: 5px 0px;
+	overflow: auto;
+
 }
