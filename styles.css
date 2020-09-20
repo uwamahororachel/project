@@ -4,20 +4,24 @@ html,body,section{
 }
 #main_section{
 	padding: 10px 0px;
-	background-color: #faa;
+	background-color: rgb(245, 233, 233);
 	overflow: auto;
+	width:85%;
+	margin: 0px auto;
+	padding: 10px;
 	box-sizing: border-box;
 }
 
 #main_section h2{
-	font-family: roboto;
+	font-family: 'calibri', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #main_section #left{
 	box-sizing: border-box;
 	width:35%;
+	box-shadow:2px 2px 3px #000;
 	float: left;
-
+	padding: 5px;
 	background-color:#fff;
 	
 }
@@ -30,6 +34,62 @@ html,body,section{
 }
 
 
+.language > div {
+	background-color: #faa !important;
+
+width: 70% !important;
+	border-radius: 1%;
+	height:25px;
+
+	border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.language h3{
+margin: 0px;
+padding: 0px;	
+text-indent: 10% !important;
+}
+
+.language > div P{
+	width:40%;
+	text-align: center;
+	height: 25px;
+	border-radius: 0px 10px 10px 0px;
+	background-color: aquamarine !important;
+}
+.language div .fr{
+	width:80%;
+}
+
+.language div .en{
+	width:90%;
+}
+
+
+.language div .kn{
+	width:95%;
+}
+
+.language div .lu{
+	width:90%;
+}
+.language div .sw{
+	width:70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -40,9 +100,11 @@ html,body,section{
 #main_section #right{
 	box-sizing: border-box;
 	width:58%;
-	
+	padding:5px;
+	box-shadow:2px 2px 3px #000;
 	float: right;
-	background-color:#aaf;
+	background-color:#fff;
+
 }
 
 #main_section #right dd {
