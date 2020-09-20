@@ -12,9 +12,14 @@ html,body,section{
 	font-family: 'Playfair Display', serif;
 	box-sizing: border-box;
 }
-
+#right div,#left .contact{
+padding-left:10px;
+}
 #main_section h2{
 	font-family: 'Playfair Display', serif;
+}
+#main_section i{
+	color: brown;
 }
 
 #main_section #left{
@@ -28,6 +33,7 @@ html,body,section{
 }
 #main_section .contact{
 	font-size:20px;
+
 }
 
 
@@ -42,7 +48,7 @@ html,body,section{
 
 
 .language > div {
-	background-color: #faa !important;
+	background-color: brown !important;
 
 width: 70% !important;
 	border-radius: 1%;
@@ -85,7 +91,6 @@ text-indent: 10% !important;
 .language div .sw{
 	width:70%;
 }
-
 
 
 
