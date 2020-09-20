@@ -9,11 +9,13 @@ html,body,section{
 	width:85%;
 	margin: 0px auto;
 	padding: 10px;
+	font-family: 'Playfair Display', serif;
 	box-sizing: border-box;
 }
 
 #main_section h2{
-	font-family: 'Playfair Display', serif;}
+	font-family: 'Playfair Display', serif;
+}
 
 #main_section #left{
 	box-sizing: border-box;
@@ -24,6 +26,12 @@ html,body,section{
 	background-color:#fff;
 	
 }
+#main_section .contact{
+	font-size:20px;
+}
+
+
+
 #left .name img{
 	width:200px;
 	height:200px;
@@ -44,7 +52,7 @@ width: 70% !important;
 }
 
 
-
+.language{padding: 5px 0px;}
 .language h3{
 margin: 0px;
 padding: 0px;	
@@ -85,7 +93,11 @@ text-indent: 10% !important;
 
 
 
-
+.hobby_table {
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+}
 
 
 
