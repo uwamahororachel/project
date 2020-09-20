@@ -4,7 +4,7 @@
 }
 #main_section{
 	padding: 10px 0px;
-	background-color: #fee;
+	background-color: #faa;
 	overflow: auto;
 	box-sizing: border-box;
 }
@@ -14,7 +14,8 @@
 	width:35%;
 	float: left;
 
-	background-color:#faa;
+	background-color:#fff;
+	
 }
 #main_section #right{
 	box-sizing: border-box;
@@ -32,5 +33,18 @@
 	background-color: #eee;
 }
 #main_section #left div h2{
+text-indent: 10%;
+}
+
+
+
+
+#main_section #right div{
+	width: 95%;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	background-color: #eee;
+}
+#main_section #right div h2{
 text-indent: 10%;
 }
